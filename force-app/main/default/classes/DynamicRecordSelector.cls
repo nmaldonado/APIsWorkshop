@@ -1,4 +1,4 @@
-public with sharing class DynamicRecordSelector {
+public class DynamicRecordSelector {
 
     @AuraEnabled
     public static List<Map<String, Object>> getRecords(String sObjectType, List<String> fields, String whereClause, Integer lim) {
